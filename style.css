@@ -1,0 +1,87 @@
+body
+{
+	background-image: url(img/background.jpg);
+	color: #efefef;
+    font-family: 'Lobster', cursive;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.flowers
+{
+	text-align: center;
+}
+
+.flowers img
+{
+	width: 100%;
+	height: auto;
+}
+
+.flowers p
+{
+	margin-bottom: 30px;
+}
+
+.photo1
+{
+	transition: all 0.2s ease-in-out;
+    border: rgba(255, 255, 255, 0.4) 1px solid;
+}
+
+.photo1:hover
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+
+.template .link
+{
+	position: absolute;
+	display: block;
+	width: 92%;
+	height: 20%;
+	background-color: #111;
+	left: 4%;
+	bottom: 6%;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.template:hover .link
+{
+	opacity: 0.8;
+}
+
+.template p {
+    margin-top: 10px;
+}
+.template2 .link
+{
+	position: absolute;
+	display: block;
+	width: 90%;
+	height: 92%;
+	background-color: rgba(255, 255, 180, 0.5);
+	left: 5%;
+	bottom: 8%;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.template2:hover .link
+{
+	opacity: 0.9;
+}
+
